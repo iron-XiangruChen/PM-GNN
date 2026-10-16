@@ -1,0 +1,5 @@
+# Alternative TensorFlow installation on a supported Linux/WSL2 CUDA environment.
+-r requirements.txt
+# TensorFlow 2.15.1 GPU dependencies can be installed with:
+# pip install 'tensorflow[and-cuda]==2.15.1'
+# Verify availability with: python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"

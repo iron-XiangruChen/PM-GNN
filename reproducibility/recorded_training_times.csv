@@ -1,0 +1,5 @@
+model,permeability_training_seconds,modulus_training_seconds,combined_seconds,permeability_epochs,modulus_epochs,ratio_vs_baseline
+GNN baseline,319.84,336.13,655.97,23,22,1.0
+GNN + global descriptors,551.46,592.62,1144.08,35,35,1.744
+GNN + flow path descriptors,499.57,340.47,840.04,34,21,1.281
+PM-GNN full,1647.55,914.84,2562.39,92,41,3.906
